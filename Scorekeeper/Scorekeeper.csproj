@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net481</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutDir>.\bin</OutDir>
+		<Optimize>true</Optimize>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+		<SalemModLoaderLink>https://github.com/Curtbot9000/SalemModLoader/releases/latest/download/SalemModLoader.dll</SalemModLoaderLink>
+		
+		<!--Be sure to replace this with the path to the Steam Library (use two slashes after drives)-->
+		<SteamLibrarypath>C:\Program Files (x86)\Steam\steamapps\common</SteamLibrarypath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HarmonyX" Version="2.10.2" />
+		<PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.1">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="resources\Scorekeeper.modinfo.json"></EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Town of Salem 2\TownOfSalem2_Data\Managed\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SalemModLoader">
+	    <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Town of Salem 2\BepInEx\plugins\SalemModLoader.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Town of Salem 2\TownOfSalem2_Data\Managed\UnityEngine.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<Target Name="PrepareBuildFiles" AfterTargets="BeforeBuild">
+		<DownloadFile SourceUrl="$(SalemModLoaderLink)" DownloadedFile="SalemModLoader.dll" DestinationFolder="$(MSBuildThisFileDirectory)\libs" SkipUnchangedFiles="true">
+			<Output TaskParameter="DownloadedFile" ItemName="Content" />
+		</DownloadFile>
+		<Exec Command="robocopy &quot;$(SteamLibraryPath)\steamapps\common\Town of Salem 2\TownOfSalem2_Data\Managed&quot; .\libs Assembly-CSharp.dll /j /mt" IgnoreExitCode="true" />
+		<Exec Command="robocopy &quot;$(SteamLibraryPath)\steamapps\common\Town of Salem 2\TownOfSalem2_Data\Managed&quot; .\libs UnityEngine.CoreModule.dll /j /mt" IgnoreExitCode="true" />
+	</Target>
+</Project>

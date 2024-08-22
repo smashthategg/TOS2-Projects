@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|c:\\users\\jzlin\\source\\repos\\scorekeeper\\src\\scorekeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|solutionrelative:src\\scorekeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|c:\\users\\jzlin\\source\\repos\\scorekeeper\\src\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|solutionrelative:src\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|c:\\users\\jzlin\\source\\repos\\scorekeeper\\scorekeeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F726A884-3E81-4982-B283-034B3DF28824}|Scorekeeper.csproj|solutionrelative:scorekeeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\src\\Utils.cs",
+              "RelativeDocumentMoniker": "src\\Utils.cs",
+              "ToolTip": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\src\\Utils.cs",
+              "RelativeToolTip": "src\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T21:35:30.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scorekeeper.cs",
+              "DocumentMoniker": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\src\\Scorekeeper.cs",
+              "RelativeDocumentMoniker": "src\\Scorekeeper.cs",
+              "ToolTip": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\src\\Scorekeeper.cs",
+              "RelativeToolTip": "src\\Scorekeeper.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwHAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T21:24:15.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scorekeeper.csproj",
+              "DocumentMoniker": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\Scorekeeper.csproj",
+              "RelativeDocumentMoniker": "Scorekeeper.csproj",
+              "ToolTip": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\Scorekeeper.csproj",
+              "RelativeToolTip": "Scorekeeper.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T21:16:51.889Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "hWqnI7pBltg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jzlin\\source\\repos\\Scorekeeper\\Scorekeeper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jzlin\\.nuget\\packages\\bepinex.assemblypublicizer.msbuild\\0.4.1\\bepinex.assemblypublicizer.msbuild.0.4.1.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\harmonyx\\2.10.2\\harmonyx.2.10.2.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net481\\1.0.3\\microsoft.netframework.referenceassemblies.net481.1.0.3.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\monomod.runtimedetour\\22.3.23.4\\monomod.runtimedetour.22.3.23.4.nupkg.sha512",
+    "C:\\Users\\jzlin\\.nuget\\packages\\monomod.utils\\22.3.23.4\\monomod.utils.22.3.23.4.nupkg.sha512"
+  ],
+  "logs": []
+}
